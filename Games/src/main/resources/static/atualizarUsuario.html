@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atualizar Usuario</title>
+    <link rel="stylesheet" href="style2.css"/>
+</head>
+<body onload="buscarTabela()">
+    <div class="container2">
+        <div class="title">
+            <h1>Listar</h1>
+        </div>
+
+        <p id="tabelaId"></p>
+    </div>
+
+    <div class="container">
+
+        <label>ID:</label>
+        <input id="id" type="text">
+        <br>
+        <label>Nome:</label>
+        <input id="nome" type="text" placeholder="Jorge da Silva">
+        <br>
+        <label>Senha:</label>
+        <input id="senhaCadastro" type="password" placeholder="1234">
+        <br>
+        <label>Telefone:</label>
+        <input id="telefone" type="text" placeholder="(**)*********">
+        <br>
+        <label>Email:</label>
+        <input id="email" type="text" placeholder="exemplo@gmail.com">
+
+        <div class="btn">
+            <button onclick="Atualizar()">Atualizar</button>
+            <button onclick="deleteUsuario()">Deletar</button>
+        </div>
+    
+    </div>
+
+    
+<script src="script.js"></script>
+</body>
+</html>

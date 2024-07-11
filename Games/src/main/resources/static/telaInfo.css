@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #051845;
+    font-size: 18px;
+}
+
+.contaCarrinho {
+    display: flex;
+    align-items: center;
+}
+.contaCarrinho button {
+    background-color: #3F51B5;
+    color: #fff;
+    margin-left: 10px;
+    padding: 6px;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.contaCarrinho button:hover {
+    background-color: #334295;
+}
+
+.logo {
+    display: flex;
+    color:#b0bbff;
+}
+
+input {
+    padding: 10px;
+    height: 25px;
+    width: 270px;
+    border-radius: 10px;
+}
+
+.btnPesquisa {
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    padding: 6px;
+    height: 50px;
+    width: 100px;
+    margin-left: 5px;
+}
+
+.main {
+    margin-top: 30px;
+    display: flex;
+    height: 50vh;
+    width: 100vw;
+}
+
+.game_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+}
+
+img {
+    margin-left: 200px;
+    height: 450px;
+    width: 400px;
+}
+
+.game_info {
+    margin: 60px;
+    justify-content: center;
+    height: 100%;
+    width: 65%;
+}
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.preco {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.btn {
+    background-color: green;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-top: 40px;
+    height: 80px;
+    width: 300px;
+}
+
+.desc {
+    height: auto;
+    width: 80vw;
+    margin-top: 20px;
+    margin-left: 150px;
+    padding: 6px;
+    border-style: solid;
+    border-color: #051845;
+    border-radius: 10px;
+}
+
+@media (max-width: 800px) {
+    header {
+        display: grid;
+        justify-content: center;
+        height: auto;
+        width: 110vw;
+    }
+
+    .logo {
+        margin-left: 90px;
+    }
+
+    .contaCarrinho {
+        margin-top: 15px;
+        margin-left: 90px;
+    }
+
+    .main {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        margin-left: 70px;
+    }
+
+    .game_info {
+        margin-bottom: 20px;
+    }
+
+    .desc {
+        margin-top: 350px;
+        margin-left: 35px;
+        width: 500px;
+        padding: 6px;
+        border-style: solid;
+        border-color: #051845;
+        border-radius: 10px;
+    }
+
+    .btn {
+        margin-left: 45px;
+    }
+  }

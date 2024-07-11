@@ -1,0 +1,136 @@
+@font-face{
+    font-family: 'Rubik', sans-serif;
+    src : url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+    font-family: 'Montserrat', sans-serif;
+    /*src : url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');*/
+}
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+header{
+    background-color: #051845;
+}
+
+.btnpersonalisado{
+    background-color: #3F51B5;
+    color: #fff;
+    margin-left: 20px;
+}
+
+.btnpersonalisado:hover{
+    background-color: #334295;
+}
+
+.logo{
+    color:#b0bbff;
+    display: flex;
+}
+
+.botao{
+    height: 25px;
+    width: 25px;
+    border: 0px;
+}
+
+.loginImg{
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+}
+
+.centro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    margin: 20px;
+}
+
+.card-img-top{
+    margin: 10px;
+}
+
+.destaqueImg{
+    height: 400px;
+}
+
+.destaque{
+    color: #fff;
+    margin: 20px;
+    margin-right: 50%;
+    font-size: 25px;
+}
+
+.destaque button{
+    background-color:#3F51B5;
+    color: #fff;
+    height: 60px;
+    width: 120px;
+    border-radius: 5px;
+    border: 0px;
+    font-size: 20px;
+}
+
+.jogo img{
+    height: 300px;
+    width: 200px;
+}
+
+#jgDesc{
+    background-color: #00000071;
+    height: 40rem;
+    background: rgb(48,63,144);
+    background: linear-gradient(90deg, rgba(48,63,144,0.3) 0%, rgba(63,81,181,0.3) 35%, rgba(47,185,213,0.3) 100%),url(img/bgTlou.jpg);
+}
+
+#nomeJogo{
+    margin: 0px;
+}
+
+@media (max-width: 600px){
+    .d-flex{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    header{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .form-inline{
+        justify-content: center;
+    }
+
+    #jgDesc{
+        height: 40rem;
+        width: 100%;
+    }
+
+    .destaque{
+        margin-right: 0px;
+    }
+
+    .centro{
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .destaqueImg{
+        height: 300px;
+    }
+}

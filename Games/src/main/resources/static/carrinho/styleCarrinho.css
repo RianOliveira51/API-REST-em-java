@@ -1,0 +1,112 @@
+@font-face{
+    font-family: 'Rubik', sans-serif;
+    src : url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+    font-family: 'Montserrat', sans-serif;
+    /*src : url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');*/
+}
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+header{
+    background-color: #051845;
+    padding-bottom: 10px;
+}
+
+.btnpersonalisado{
+    background-color: #3F51B5;
+    color: #fff;
+    margin-left: 20px;
+}
+
+.btnpersonalisado:hover{
+    background-color: #334295;
+}
+
+.logo{
+    color:#b0bbff;
+    display: flex;
+}
+
+.centro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carrinho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo{
+    margin: 10px;
+}
+
+.tabela{
+    width: 70%;
+    margin: 20px;
+}
+
+.img{
+    height: 150px;
+}
+
+.calculadora{
+    width: 30%;
+    margin: 20px;
+}
+
+.card-header{
+    border-bottom: 0px;
+}
+
+@media (max-width: 600px){
+    .d-flex{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    header{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .form-inline{
+        justify-content: center;
+    }
+
+    .centro{
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .carrinho{
+        flex-direction: column;
+    }
+
+    .tabela{
+        width: 100%;
+    }
+
+    .calculadora{
+        width: 100%;
+    }
+
+    .img{
+        height: 100px;
+    }
+}
